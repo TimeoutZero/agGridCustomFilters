@@ -1,0 +1,13 @@
+node_modules/
+semantic/
+bower_components/
+coverage/
+semantic.json
+.sass-cache/
+.idea/
+.tmp/
+dist/
+builds
+tests/
+.DS_Store
+.npm-debug.log

@@ -1,0 +1,56 @@
+{
+  "name": "ag-grid-custom-filters",
+  "description": "Community checkbox filter for ag-grid component",
+  "authors": [
+    "Carlos Henrique <carloshpds@gmail.com>",
+    "Renato Massi Pereira <renato.massi@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TimeoutZero/agGridCustomFilters"
+  },
+  "main": [
+    "builds/release/agGridCustomFilters.js"
+  ],
+  "dependencies": {
+    "angular": "1.4.7"
+  },
+  "devDependencies": {
+    "angular-resource": "1.4.6",
+    "angular-mocks": "1.4.6"
+  },
+  "resolutions": {
+    "angular": "1.4.7",
+    "angular-touch": "1.4.6"
+  },
+  "overrides": {
+  },
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "angular",
+    "ng",
+    "ag-grid",
+    "grid",
+    "br",
+    "web-components",
+    "ag-grid-custom-filters"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "demo",
+    ".vscode",
+    "test",
+    "tests",
+    "gulpfile.js",
+    "karma.conf.js",
+    "package.json"
+  ],
+  "license" : "MIT"
+}

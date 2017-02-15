@@ -1,0 +1,40 @@
+{
+  "name": "ng-fill-height",
+  "version": "1.0.0",
+  "description": "Changes height of the element until parent gets a scroll",
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimeoutZero/ng-fill-height.git"
+  },
+  "authors": [
+    "Carlos Henrique <carloshpds@gmail.com>",
+    "Renato Massi Pereira <renato.massi@gmail.com>"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimeoutZero/ng-fill-height/issues"
+  },
+  "homepage": "https://github.com/TimeoutZero/ng-fill-height#readme",
+  "scripts": {
+    "test": "gulp test",
+    "install": "bower install;"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.10",
+    "gulp-util": "~3.0.2",
+    "basebuild-angular": "0.15.1",
+    "basebuild-component": "0.1.7",
+    "ng-annotate-webpack-plugin": "0.1.3",
+    "karma": "0.13",
+    "karma-nyan-reporter": "0.2.2",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-coverage": "0.5.3",
+    "karma-jasmine": "~0.3.1",
+    "karma-ng-html2js-preprocessor": "~0.1.2"
+  },
+  "engines": {
+    "node": ">=4.2.2"
+  }
+}
